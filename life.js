@@ -1,9 +1,13 @@
-let meaningOfLife = 12;
-let meaningOfUniverse = 30;
+// let meaningOfLife = 45;
+// let meaningOfUniverse = 30;
+//
+// let answerToEverything = meaningOfLife + meaningOfUniverse === 42;
 
-let answerToEverything = meaningOfLife + meaningOfUniverse === 42;
-
-if (answerToEverything) {
+function answerToAll(meaningOfLife, meaningOfUniverse) {
+    let meaningOfLife = 45;
+    let meaningOfUniverse = 30;
+    let answerToEverything = meaningOfLife + meaningOfUniverse === 42;
+} (answerToEverything) {
     console.log ("True")
 } else {
     console.log ("False")
